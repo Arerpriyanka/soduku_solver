@@ -1,9 +1,9 @@
 
 #### Abstract
 Sudoku is a game in which pen, paper and brain usually work together. When you want to give your pen and brain some rest, 
-it can be solved with sudoku solvers. Here we will try to make such a Sudoku Solar.
+it can be solved with sudoku solvers. Here we will try to make such a Sudoku Solver.
 This article aims to take advantage of linear programming concepts to solve sudoku puzzles. We will start by updating some basic
-theories behind liner programming and then implement it in Python using PULP package.
+theories behind liner programming and then implement it in Python.
 Here we will try to solve two types of sudoku puzzles, regular sudoku and diagonal sudoku, with additional rules on sudoku grid diagonal. More on that as we progress.
 
 
@@ -17,8 +17,6 @@ Sudoku is a puzzle based on a small number of very simple principles:
 * Each vertical column can contain 1 to 9 numbers only once.
 * Each horizontal row can contain 1 to 9 numbers only once.
 * Once the puzzle is solved, this means that every number from 1 to 9 in each row, column, and 3 × 3 box will be exactly once.
-
-* In other words, no number can be repeated in any 3 × 3 box, row, or column.
 * In this way of solving the Sudoku puzzle, we first assign the size variable M (M * M) of the 2D matrix.
 * Then we assign a utility function (puzzle) to print the grid.
 * It will assign a number to the queue and call later.
