@@ -25,7 +25,6 @@ Sudoku is a puzzle based on a small number of very simple principles:
 * Then we will check if the value of the column becomes 9 then we go to the next row and column.
 * Further we see that if the value of the current position of the grid is greater than 0, we repeat for the next column.
 * After checking if this is a safe place, we go to the next column and then assign numbers to the current (row, call) position of the grid. Later we examine the next possibility with the next column.
-* As our assumption was wrong, we reject the assigned number and then we move on to the next assumption with the value of the different number.
 
 --------------------------------------------------------
 
