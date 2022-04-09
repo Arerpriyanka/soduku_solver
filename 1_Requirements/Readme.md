@@ -1,4 +1,4 @@
-
+# soduku solver
 #### Abstract
 Sudoku is a game in which pen, paper and brain usually work together. When you want to give your pen and brain some rest, 
 it can be solved with sudoku solvers. Here we will try to make such a Sudoku Solver.
