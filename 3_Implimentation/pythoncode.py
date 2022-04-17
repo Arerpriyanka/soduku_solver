@@ -299,4 +299,4 @@ class SudokuSolver(object):
 class Pattern(object):
 
     def solve(self, sudoku: Sudoku, solve_one: bool = False) -> bool:
-        return False 
+        return false
